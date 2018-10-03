@@ -1,0 +1,27 @@
+{
+  "name": "camsci",
+  "version": "1.0.0",
+  "description": "Assessment packages for Campbell Scientific",
+  "main": "csassess.js",
+  "scripts": {
+    "start": "node csassess.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steve-the-edwards/camsci-assessment.git"
+  },
+  "author": "steve-the-edwards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steve-the-edwards/camsci-assessment/issues"
+  },
+  "homepage": "https://github.com/steve-the-edwards/camsci-assessment#readme",
+  "dependencies": {
+    "adm-zip": "^0.4.11",
+    "array-sort-by": "^1.2.1",
+    "fs": "0.0.1-security",
+    "get-exif": "^1.0.0",
+    "request": "^2.88.0"
+  }
+}
